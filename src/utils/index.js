@@ -1,0 +1,6 @@
+export {default as Navbar} from '../components/Navbar'
+export {default as WelcomeSection} from '../components/WelcomeSection'
+export {default as ServicesSection} from '../components/ServicesSection'
+export {default as Portfolio} from '../components/Portfolio'
+export {default as ReviewSection} from '../components/ReviewSection'
+export {default as Footer} from '../components/Footer'
