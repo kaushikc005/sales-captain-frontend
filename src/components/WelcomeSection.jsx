@@ -4,7 +4,7 @@ const WelcomeSection = () => {
   return (
     <main className="z-1 w-screen overflow-x-hidden">
       <aside className="hero-section top-0 right-0 w-2/3 absolute z-0 ">
-        <img src="public\curve-1.png" alt="curve" width="100%"  />
+        <img src="curve-1.png" alt="curve" width="100%"  />
       </aside>
 
       <article className="flex xs:flex-col md:flex-row justify-center items-center 

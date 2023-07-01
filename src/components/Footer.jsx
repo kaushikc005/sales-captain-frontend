@@ -8,7 +8,7 @@ const Footer = () => {
       <section className="flex xs:flex-col md:flex-row gap-20 justify-center  md:w-screen">
         <div className="flex flex-col items-center gap-10 text-gray-600">
           <img
-            src="src\assets\footerlogo.png"
+            src="footerlogo.png"
             alt="logo"
             width="200px"
             className="h-8 mt-4"
@@ -16,7 +16,7 @@ const Footer = () => {
           <nav className="flex md:flex-col xs:flex-row items-center gap-4">
             <a href="https://play.google.com/store/apps/details?id=com.theclosecompany.sales_book&hl=en_IN&gl=US">
               <img
-                src="src\assets\playstore.png"
+                src="playstore.png"
                 alt="#"
                 width="140px"
                 className="cursor-pointer"
@@ -25,7 +25,7 @@ const Footer = () => {
 
             <a href="#">
               <img
-                src="src\assets\appstore.png"
+                src="appstore.png"
                 alt="#"
                 width="140px"
                 className="cursor-pointer"

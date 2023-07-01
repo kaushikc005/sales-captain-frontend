@@ -2,14 +2,13 @@ import React, { useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 
 const Login = () => {
-
   const [showPassword, setShowPassword] = useState(false)
   const [showOutline, setShowOutline] = useState(false)
   return (
     <section className="flex" >
       <article className="xs:w-screen md:w-1/2 flex flex-col justify-center items-center h-screen"
       >
-        <img src="src\assets\loginLogo.png" alt="logo" width="300px" className="my-8"  />
+        <img src="loginLogo.png" alt="logo" width="300px" className="my-8"  />
 
         <form className="flex flex-col w-72 gap-8 my-4"
         >
@@ -69,7 +68,7 @@ const Login = () => {
 
         <Carousel autoPlay infiniteLoop>
         <div className="bg-gray-200 flex flex-col items-center justify-center h-screen ">
-          <img src="src\assets\loginPagePic1.svg" alt="banner" className="loginBanner" />
+          <img src="loginPagePic1.svg" alt="banner" className="loginBanner" />
           <h1 className="text-5xl font-bold p-4 text-center">Turn more customer calls into revenue.</h1>
           <p className="text-xl font-medium break-words">Capture every caller with Podium Phones,<br/> 
           a VOIP system for your small business.</p>
@@ -77,7 +76,7 @@ const Login = () => {
         </div>
 
         <div className="bg-gray-200 flex flex-col items-center justify-center h-full">
-          <img src="src\assets\loginPagePic2.png" alt="logoBanner" className="loginBanner2" />
+          <img src="loginPagePic2.png" alt="logoBanner" className="loginBanner2" />
           <h1 className="text-5xl font-bold text-center">Give your business a
 SalesCaptain Upgrade</h1>
           <p className="text-xl font-medium break-words p-4">Our AI-powered tools help local businesses modernize how they communicate with their customers by facilitating online reviews, personalized marketing campaigns, web chats, payments, and more.</p>

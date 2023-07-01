@@ -67,7 +67,7 @@ const ReviewSection = () => {
               <span className=" xs:text-xl md:text-2xl font-bold">{review.growthType}</span>
             </aside>
             <img
-              src="src\assets\quote.png"
+              src="quote.png"
               alt="quoteIcon"
               className="quoteIcon absolute right-10 bottom-20"
             />
@@ -75,7 +75,7 @@ const ReviewSection = () => {
         ))}
       </Carousel>
       <img
-        src="src\assets\curve-3.png"
+        src="curve-3.png"
         alt="curve2"
         className="absolute z-0 -top-60 right-0 "
         width="350px"

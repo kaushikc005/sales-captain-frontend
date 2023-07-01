@@ -131,7 +131,7 @@ const ServicesSection = () => {
       </section>
       <aside className="w-screen ">
         <img
-          src="src\assets\curve-3.png"
+          src="curve-3.png"
           alt="curve2"
           className="absolute z-0 top-20 right-0 "
           width="350px"
